@@ -64,20 +64,6 @@ void main()
             printf("Amount after withdrawal : %d \n", c[i].balance);
         }
     }
-    /*printf("For customer 1-----");
-    for(int j=0;j<6;j++)
-        {
-            
-            printf("\n%d notes is:%d", a[j], withdrawal[0] / a[j]);
-            withdrawal[0] =withdrawal[0] % a[j];
-        }
-    printf("For customer 2-----");
-    for(int j=0;j<6;j++)
-        {
-            
-            printf("\n%d notes is:%d", a[j], withdrawal[1] / a[j]);
-            withdrawal[1] =withdrawal[1] % a[j];
-        }*/
     for (i = 0; i < N; i++)
     {
          printf("for customer %d\n---------------",i+1);
